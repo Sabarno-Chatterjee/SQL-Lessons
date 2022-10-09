@@ -50,6 +50,19 @@ This file consists of all the notes from SQL classes.
 
     eg : INSERT INTO cats(name, age) VALUES ('Jetson', 7);
 
+* SELECT * FROM <table_name>;
+
+    To view all the data of the selected table.
+
+
+* Multiple Inserts:
+
+    INSERT INTO table_name 
+            (column_name, column_name) 
+    VALUES      (value, value), 
+                (value, value), 
+                (value, value);
+
 
 
 
