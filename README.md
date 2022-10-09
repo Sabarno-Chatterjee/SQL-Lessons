@@ -63,6 +63,21 @@ This file consists of all the notes from SQL classes.
                 (value, value), 
                 (value, value);
 
+* SHOW WARNINGS;
+
+    To check for the warnings in the CLI(Command LIne Interface)
+
+
+* NOT NULL constraints:
+
+
+    CREATE TABLE tablename
+  (
+    column_name data_type NOT NULL,
+    column_name data_type NOT NULL
+  );
+
+
 
 
 
