@@ -27,7 +27,21 @@ This file consists of all the notes from SQL classes.
 
     To check the current database.
 
+*  CREATE TABLE tablename
+  (
+    column_name data_type,
+    column_name data_type
+  );
 
+* SHOW TABLES;
+
+    All the tables present in the current database is displayed.
+
+* SHOW COLUMNS FROM tablename;
+
+    All the types of columns from the selected table is displayed.
+
+*
 
 
 
