@@ -41,7 +41,16 @@ This file consists of all the notes from SQL classes.
 
     All the types of columns from the selected table is displayed.
 
-*
+* DESC tablename;
+
+    Has a similar output as the previous. Has a different use which is yet to learn.
+
+
+* INSERT INTO table_name(column_name) VALUES (data);
+
+    eg : INSERT INTO cats(name, age) VALUES ('Jetson', 7);
+
+
 
 
 
