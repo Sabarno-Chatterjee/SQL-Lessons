@@ -86,6 +86,31 @@ This file consists of all the notes from SQL classes.
     age INT DEFAULT 99
   );
 
+
+* PRIMARY KEYS:
+
+    CREATE TABLE <table_name>
+  (
+    cat_id INT NOT NULL,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+  );
+
+
+* AUTO_INCREMENT:
+
+
+    CREATE TABLE <table_name>
+    (
+    cat_id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100),
+    age INT,
+    PRIMARY KEY (cat_id)
+    );
+
+
+
 ***CRUD OPERATIONS***
 
 
