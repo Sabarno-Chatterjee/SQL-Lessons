@@ -120,8 +120,19 @@ This file consists of all the notes from SQL classes.
     Which is basically entering some data.
 
     eg:
-    
+
     INSERT INTO cats(name, age) VALUES(‘Taco’, 14);
+
+
+* SELECT OR READ
+
+
+    Used to view to content as per our need. "*" is used to view all the coloumnf of the table.
+
+
+    SELECT * FROM <table_name>; 
+
+    SELECT <column_name> FROM <table_name>; 
 
 
 
