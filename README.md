@@ -115,6 +115,13 @@ This file consists of all the notes from SQL classes.
 
 
 
+* CREATE 
+
+    Which is basically entering some data.
+
+    eg:
+    
+    INSERT INTO cats(name, age) VALUES(‘Taco’, 14);
 
 
 
