@@ -147,6 +147,30 @@ This file consists of all the notes from SQL classes.
     SELECT <column_name> FROM <table_name>; 
 
 
+* UPDATE:
+
+
+
+    Used to update a piece of data.
+
+
+    eg:
+
+
+    UPDATE cats SET breed='Shorthair' WHERE breed='Tabby';
+
+
+* DELETE 
+
+
+    DELETE FROM cats WHERE name='Egg';
+
+    OR 
+
+    DELETE FROM cats; (This will remove all the data but the table still exists.)
+
+
+
 
 
 
