@@ -110,6 +110,18 @@ This file consists of all the notes from SQL classes.
     );
 
 
+* ALIASES:
+
+    Used to change the name of the columns during display.
+
+    eg:
+
+    SELECT cat_id AS id, name FROM cats;
+ 
+    SELECT name AS 'cat name', breed AS 'kitty breed' FROM cats;
+ 
+    DESC cats;
+
 
 ***CRUD OPERATIONS***
 
