@@ -78,8 +78,19 @@ This file consists of all the notes from SQL classes.
   );
 
 
+* DEFAULT VALUES:
+
+    CREATE <table_name>
+  (
+    name VARCHAR(20) DEFAULT 'no name provided',
+    age INT DEFAULT 99
+  );
 
 ***CRUD OPERATIONS***
+
+
+
+
 
 
 
