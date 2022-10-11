@@ -229,7 +229,23 @@ This file consists of all the notes from SQL classes.
     SELECT LOWER('Hello World');
 
 
+* DISTINCT:
 
+
+    SELECT DISTINCT author_lname FROM books;
+
+
+* ORDER BY:
+
+
+    SELECT author_lname FROM books ORDER BY author_lname;
+
+    OR 
+
+    SELECT title, author_fname, author_lname 
+    FROM books ORDER BY 2;
+     
+     ('2' will basically select 'author_fname' in this case).
 
 
 
