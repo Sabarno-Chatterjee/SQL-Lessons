@@ -209,6 +209,26 @@ This file consists of all the notes from SQL classes.
     SELECT REPLACE('Hello World', 'Hell', '%$#@');
 
 
+* REVERSE:
+
+
+    SELECT REVERSE('Hello World');
+
+
+* CHARACTER LENGTH:
+
+
+    SELECT CHAR_LENGTH('Hello World');
+
+
+* UPPER & LOWER:
+
+
+    SELECT UPPER('Hello World');
+ 
+    SELECT LOWER('Hello World');
+
+
 
 
 
