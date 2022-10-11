@@ -189,12 +189,27 @@ This file consists of all the notes from SQL classes.
     FROM books;
 
 
+
 * SUBSTRING:
 
 
     SELECT SUBSTRING('Hello World', 1, 4);
 
     Output: Hell
+
+    Eg of usig substring along with other string functions like 'Concat';
+
+    SELECT CONCAT(SUBSTRING(title,1,10),'...') AS 'Short title' FROM books;
+
+
+
+* REPLACE:
+
+
+    SELECT REPLACE('Hello World', 'Hell', '%$#@');
+
+
+
 
 
 
