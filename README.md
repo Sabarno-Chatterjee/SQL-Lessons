@@ -170,6 +170,8 @@ This file consists of all the notes from SQL classes.
     DELETE FROM cats; (This will remove all the data but the table still exists.)
 
 
+***STRING FUNCTIONS***
+
 
 
 
