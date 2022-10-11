@@ -175,5 +175,27 @@ This file consists of all the notes from SQL classes.
 
 
 
+*   CONCAT
+
+
+    Combine data for cleaner output.
+
+    eg:
+
+
+    SELECT
+    CONCAT(author_fname, ' ', author_lname)
+    AS 'full name'  
+    FROM books;
+
+
+891-033-7933
+
+
+ sharmista
+
+
+
+
 
 
