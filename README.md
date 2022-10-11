@@ -235,10 +235,7 @@ This file consists of all the notes from SQL classes.
 
 
 
-891-033-7933
 
-
- sharmista
 
 
 
