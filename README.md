@@ -189,6 +189,17 @@ This file consists of all the notes from SQL classes.
     FROM books;
 
 
+* SUBSTRING:
+
+
+    SELECT SUBSTRING('Hello World', 1, 4);
+
+    Output: Hell
+
+
+
+
+
 891-033-7933
 
 
