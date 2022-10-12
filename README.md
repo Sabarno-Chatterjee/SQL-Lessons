@@ -249,6 +249,24 @@ This file consists of all the notes from SQL classes.
 
 
 
+* LIMIT:
+
+
+    SELECT title, released_year FROM books 
+    ORDER BY released_year DESC LIMIT 5;
+
+        {Will display 5 rows in desc order}
+
+    or
+
+    SELECT title, released_year FROM books 
+    ORDER BY released_year DESC LIMIT 5,3;
+
+        {In this case the list will begin from 5 from row and display the next 3 rows.}
+
+
+
+
 
 
 
