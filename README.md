@@ -284,7 +284,7 @@ This file consists of all the notes from SQL classes.
 
     SELECT title, stock_quantity FROM books WHERE stock_quantity LIKE '____';
 
-        {In this case '____' will search for that many characters in the stock, lets say you want to look for books which have a stock in 2 diggits... '__' can be used for that}
+        {In this case '____' will search for that many characters in the stock, lets say you want to look for books which have a stock in 2 digits... '__' can be used for that}
 
 
 
