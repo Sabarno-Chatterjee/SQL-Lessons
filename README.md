@@ -267,7 +267,7 @@ This file consists of all the notes from SQL classes.
 
 
 
-*LIKE:
+* LIKE:
 
 
     SELECT title, author_fname FROM books WHERE author_fname LIKE '%da%';
@@ -285,6 +285,18 @@ This file consists of all the notes from SQL classes.
     SELECT title, stock_quantity FROM books WHERE stock_quantity LIKE '____';
 
         {In this case '____' will search for that many characters in the stock, lets say you want to look for books which have a stock in 2 digits... '__' can be used for that}
+
+    
+
+* COUNT()
+
+
+    SELECT COUNT(*) FROM <table_name>;
+
+
+
+
+
 
 
 
