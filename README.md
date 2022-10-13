@@ -302,6 +302,13 @@ This file consists of all the notes from SQL classes.
 
     SELECT author_fname, author_lname, COUNT(*) FROM books GROUP BY author_lname;
 
+
+* MAX() OR MIN()
+
+
+
+    SELECT MIN(released_year) FROM books;
+     
     
 
 
