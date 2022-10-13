@@ -346,7 +346,18 @@ This file consists of all the notes from SQL classes.
 
         OR
 
-    
+
+    SELECT CONCAT(author_fname,' ',author_lname) AS 'AUTHOR', SUM(pages)
+    FROM books
+    GROUP BY author_lname, author_fname
+    ORDER BY SUM(pages) DESC;
+
+
+    {this will display the same output but the data will be organised on the basis of number of pages in an desc order}
+
+
+
+
     
 
 
