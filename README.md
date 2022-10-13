@@ -294,8 +294,15 @@ This file consists of all the notes from SQL classes.
     SELECT COUNT(*) FROM <table_name>;
 
 
+* GROUP BY()
 
 
+    {Using GROUP BY, by itself isn't of much use, instead it's used with other aggregator functions like COUNT(), MIN(),MAX()... which in turn helps derive sense out of the data.}
+
+
+    SELECT author_fname, author_lname, COUNT(*) FROM books GROUP BY author_lname;
+
+    
 
 
 
