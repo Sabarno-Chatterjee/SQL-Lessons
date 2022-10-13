@@ -322,6 +322,15 @@ This file consists of all the notes from SQL classes.
 
 
 
+* MAX OR MIN WITH GROUP BY:
+
+
+
+    SELECT CONCAT(author_fname,' ',author_lname) AS 'author', MIN(released_year) AS 'first release'
+    FROM books
+    GROUP BY author_lname, author_fname;
+
+
 
 
 
