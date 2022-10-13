@@ -310,6 +310,18 @@ This file consists of all the notes from SQL classes.
     SELECT MIN(released_year) FROM books;
      
     
+* SUB-QUERIES:
+
+
+    SELECT title, pages FROM books 
+    WHERE pages = (SELECT Max(pages) 
+                FROM books); 
+
+                {Here we run one query inside another query, for eg: the above example first finds the book with max pages and then displays the corresponding title and pages}
+
+
+
+
 
 
 
