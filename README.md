@@ -357,6 +357,19 @@ This file consists of all the notes from SQL classes.
 
 
 
+* AVG()
+
+
+    SELECT released_year, AVG(pages), COUNT(*)
+    FROM books
+    GROUP BY released_year;
+
+
+
+        {this will displayed the number of books published in a year and the average number of pages}
+
+
+
 
     
 
