@@ -331,6 +331,25 @@ This file consists of all the notes from SQL classes.
     GROUP BY author_lname, author_fname;
 
 
+* SUM() WITH GROUP BY
+
+
+    SELECT author_fname,
+       author_lname,
+       Sum(pages)
+    FROM books
+    GROUP BY
+        author_lname,
+        author_fname;
+
+    {This will display the total number of pages qritten by each author}
+
+        OR
+
+    
+    
+
+
 
 
 
