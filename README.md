@@ -481,6 +481,11 @@ This file consists of all the notes from SQL classes.
         SELECT title FROM books WHERE title NOT LIKE 'w%';
 
 
+    3. [GREATER THAN] OR [LESS THAN] OR [>= OR <=]
+
+
+
+
 
 
 
