@@ -444,6 +444,29 @@ This file consists of all the notes from SQL classes.
 
 
 
+* TIMESTAMP:
+
+
+    CREATE TABLE comments (
+    content VARCHAR(100),
+    created_at TIMESTAMP DEFAULT NOW()
+    );
+
+    https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/7019870#overview
+
+
+* UPDATE A TIMESTAMP:
+
+    CREATE TABLE comments2 (
+    content VARCHAR(100),
+    changed_at TIMESTAMP DEFAULT NOW() ON UPDATE NOW()
+    );
+
+
+    https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/learn/lecture/7019870#overview
+
+
+
 
 
 
