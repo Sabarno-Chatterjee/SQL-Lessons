@@ -483,6 +483,19 @@ This file consists of all the notes from SQL classes.
 
     3. [GREATER THAN] OR [LESS THAN] OR [>= OR <=]
 
+        SELECT title FROM books WHERE released_year > 2000;
+
+
+    4. LOGICAL AND (&&):
+
+
+        SELECT title FROM books WHERE author_lname = 'eggers' && released_year > 2010; 
+
+
+        
+
+        
+
 
 
 
