@@ -385,6 +385,11 @@ This file consists of all the notes from SQL classes.
     TIME format [HH:MM:SS]
     DATE TIME   [YYYY-MM-DD HH:MM:SS]
 
+
+    SELECT CURDATE():  Prints the current time.
+    SELECT CURTIME(): Prints the current time.
+    SELECT  NOW()   : Prints the currentitme.
+
     
 
 
