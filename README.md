@@ -410,6 +410,47 @@ This file consists of all the notes from SQL classes.
 
 
 
+* DATE_FORMAT():
+
+
+    SELECT DATE_FORMAT(birthdate, '%W %M %Y') FROM people;
+
+    {Returns the day of the year, month and date like "Wednesday December 1974"}
+
+    Check docs for more:
+
+    https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format
+
+
+    SELECT DATE_FORMAT(birthdt, '%m/%d/%Y at %h:%i') FROM people;
+
+    {This will add the timestamp too.}
+
+
+* DATE MATH:
+
+
+    SELECT DATEDIFF(NOW(), birthdate) FROM people;
+
+    {Prints the number of days since birth}
+
+    SELECT birthdt, birthdt - INTERVAL 5 MONTH FROM people;
+
+    {+/- INTERVAL is used to add or subtract date and time}
+
+    For more check docs:
+
+    https://dev.mysql.com/doc/refman/8.0/en/expressions.html#temporal-intervals
+
+
+
+
+
+
+
+
+
+
 
 
 
