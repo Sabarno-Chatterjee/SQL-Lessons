@@ -372,8 +372,20 @@ This file consists of all the notes from SQL classes.
 
 
     
+* DATE, TIME & DATE TIME:
 
 
+
+    CREATE TABLE people (name VARCHAR(100), birthdate DATE, birthtime TIME, birthdt DATETIME);
+ 
+    INSERT INTO people (name, birthdate, birthtime, birthdt)
+    VALUES('Padma', '1983-11-11', '10:07:35', '1983-11-11 10:07:35');
+
+    DATE format [YYYY-MM-DD]
+    TIME format [HH:MM:SS]
+    DATE TIME   [YYYY-MM-DD HH:MM:SS]
+
+    
 
 
 
