@@ -390,7 +390,23 @@ This file consists of all the notes from SQL classes.
     SELECT CURTIME(): Prints the current time.
     SELECT  NOW()   : Prints the currentitme.
 
-    
+    SELECT DAYNAME(birthdate) FROM people; 
+
+        {Will display the day}
+
+
+    Check documentation:
+
+
+    https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html
+
+
+    Other types:
+
+
+    DAY()      : Returns the day of the month.
+    DAYOFYEAR(): Returns the day of the year.
+    DAYOFWEEK(): Returns the day of the week.
 
 
 
