@@ -492,7 +492,15 @@ This file consists of all the notes from SQL classes.
         SELECT title FROM books WHERE author_lname = 'eggers' && released_year > 2010; 
 
 
-        
+    5. LOGICAL OR (||)
+
+
+        SELECT title FROM books WHERE author_lname = 'eggers' || released_year > 2010;    
+
+
+    6. BETWEEN
+
+        SELECT title, released_year FROM books WHERE released_year BETWEEN 2000 AND 2010 ORDER BY released_year;
 
         
 
