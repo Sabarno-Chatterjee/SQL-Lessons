@@ -505,6 +505,11 @@ This file consists of all the notes from SQL classes.
 
     7. IN AND NOT IN
 
+        SELECT title, author_lname 
+        FROM books
+        WHERE author_lname IN('lahiri','smith','eggers');
+
+
         
 
 
