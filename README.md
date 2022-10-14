@@ -420,6 +420,7 @@ This file consists of all the notes from SQL classes.
     Check docs for more:
 
     https://dev.mysql.com/doc/refman/8.0/en/date-and-time-functions.html#function_date-format
+   
 
 
     SELECT DATE_FORMAT(birthdt, '%m/%d/%Y at %h:%i') FROM people;
@@ -468,6 +469,16 @@ This file consists of all the notes from SQL classes.
 
 
 
+* LOGICAL OPERATORS:
+
+    1. NOT EQUAL 
+
+        SELECT title FROM books WHERE released_year != 2017;
+
+
+    2. NOT LIKE
+
+        SELECT title FROM books WHERE title NOT LIKE 'w%';
 
 
 
