@@ -498,9 +498,34 @@ This file consists of all the notes from SQL classes.
         SELECT title FROM books WHERE author_lname = 'eggers' || released_year > 2010;    
 
 
-    6. BETWEEN
+    6. BETWEEN AND NOT BETWEEN
 
         SELECT title, released_year FROM books WHERE released_year BETWEEN 2000 AND 2010 ORDER BY released_year;
+
+
+    7. IN AND NOT IN
+
+        
+
+
+
+
+
+
+
+
+
+# TYPE CAST:
+
+
+    [Can be used when comparing two different data types for eg: date in DATETIME format and in STRING format]
+
+
+    SELECT  name, birthdt 
+    FROM people
+    WHERE 
+    birthdt BETWEEN CAST('1980-01-01' AS DATETIME)
+    AND CAST('2000-01-01' AS DATETIME);
 
         
 
