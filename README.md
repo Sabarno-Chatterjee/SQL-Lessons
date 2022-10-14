@@ -510,6 +510,15 @@ This file consists of all the notes from SQL classes.
         WHERE author_lname IN('lahiri','smith','eggers');
 
 
+    8. % OPERATOR
+
+
+        SELECT title, released_year FROM books
+        WHERE released_year % 2 != 0;
+
+        {will print book titles from all the odd years.}
+
+
         
 
 
