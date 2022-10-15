@@ -628,7 +628,9 @@ TYPES:
     LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table.
 
 
-    
+    SELECT * FROM customers
+    LEFT JOIN orders
+    ON customers.id = orders.customer_id;
 
 
 
