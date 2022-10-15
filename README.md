@@ -584,6 +584,21 @@ CASE STATEMENTS
     birthdt BETWEEN CAST('1980-01-01' AS DATETIME)
     AND CAST('2000-01-01' AS DATETIME);
 
+
+
+
+
+***MULTIPLE TABLES***
+
+TYPES:
+
+    1. ONE TO ONE.
+    2. ONE TO MANY.
+    3. MANY TO ONE. 
+
+
+    Refer: https://www.sqlshack.com/learn-sql-types-of-relations/#:~:text=There%20are%203%20different%20types,many%2Dto%2Dmany
+
         
 
 
