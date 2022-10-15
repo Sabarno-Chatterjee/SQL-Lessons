@@ -519,6 +519,22 @@ This file consists of all the notes from SQL classes.
         {will print book titles from all the odd years.}
 
 
+    
+CASE STATEMENTS
+
+
+
+1. WHEN : THEN
+
+
+    SELECT title, released_year,
+    CASE
+    WHEN released_year >= 2000 THEN 'modern lit'
+    ELSE '20th century classic'
+    END AS 'Genre'
+    FROM books;
+
+
         
 
 
