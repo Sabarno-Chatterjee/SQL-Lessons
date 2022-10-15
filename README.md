@@ -542,8 +542,8 @@ CASE STATEMENTS
         CASE
             WHEN stock_quantity < 50 THEN '*'
             WHEN stock_quantity <100 THEN '**'
-            WHEN stock_quantity < 500 THEN '***'
-            WHEN stock_quantity <1000 THEN '****'
+            WHEN stock_quantity < 200 THEN '***'
+            WHEN stock_quantity <500 THEN '****'
             ELSE '*****'
         END AS 'Stock Levels'
         FROM books
