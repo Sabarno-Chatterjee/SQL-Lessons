@@ -610,11 +610,25 @@ TYPES:
 
     (INNER) JOIN: Returns records that have matching values in both tables.
 
+    Implicit Join: 
 
     SELECT * FROM customers, orders WHERE customers.id = orders.customer_id;
 
+    Explicit Join: {Easier Way}
 
-2. 
+    SELECT * FROM customers
+    JOIN orders
+    ON customers.id = orders.customer_id;
+
+
+
+2. LEFT JOIN
+
+
+    LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table.
+
+
+    
 
 
 
