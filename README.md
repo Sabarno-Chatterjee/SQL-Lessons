@@ -594,10 +594,14 @@ TYPES:
 
     1. ONE TO ONE.
     2. ONE TO MANY.
-    3. MANY TO ONE. 
+    3. MANY TO MANY. 
 
 
     Refer: https://www.sqlshack.com/learn-sql-types-of-relations/#:~:text=There%20are%203%20different%20types,many%2Dto%2Dmany
+
+
+
+
 
         
 
