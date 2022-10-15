@@ -549,6 +549,19 @@ CASE STATEMENTS
         FROM books
         ORDER BY stock_quantity;
 
+    --> {Try out this case with the book shop data}
+
+         SELECT title, author_lname,
+        CASE 
+        WHEN COUNT(*) = 1 THEN '1 book'
+        ELSE CONCAT(COUNT(*),' books') 
+         END AS TYPE
+         FROM books
+         GROUP BY author_lname, author_fname;
+
+
+         {basically we are using the CASE statement to alter our print on the basis of the number of books}
+
         
 
 
