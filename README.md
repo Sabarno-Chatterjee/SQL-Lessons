@@ -601,6 +601,20 @@ TYPES:
 
 
 
+*** JOIN ***
+
+[for additional reference; https://www.w3schools.com/sql/sql_join.asp]
+
+1. INNER JOIN
+
+
+    (INNER) JOIN: Returns records that have matching values in both tables
+
+
+
+
+
+
 
 
         
