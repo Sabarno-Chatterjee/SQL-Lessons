@@ -608,7 +608,13 @@ TYPES:
 1. INNER JOIN
 
 
-    (INNER) JOIN: Returns records that have matching values in both tables
+    (INNER) JOIN: Returns records that have matching values in both tables.
+
+
+    SELECT * FROM customers, orders WHERE customers.id = orders.customer_id;
+
+
+2. 
 
 
 
