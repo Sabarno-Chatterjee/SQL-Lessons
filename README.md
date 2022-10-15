@@ -535,6 +535,20 @@ CASE STATEMENTS
     FROM books;
 
 
+    --> Another use with multiple cases:
+
+
+        SELECT title, stock_quantity,
+        CASE
+            WHEN stock_quantity < 50 THEN '*'
+            WHEN stock_quantity <100 THEN '**'
+            WHEN stock_quantity < 500 THEN '***'
+            WHEN stock_quantity <1000 THEN '****'
+            ELSE '*****'
+        END AS 'Stock Levels'
+        FROM books
+        ORDER BY stock_quantity;
+
         
 
 
