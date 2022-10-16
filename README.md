@@ -356,6 +356,15 @@ This file consists of all the notes from SQL classes.
     {this will display the same output but the data will be organised on the basis of number of pages in an desc order}
 
 
+* To find difference or subtract:
+
+    SELECT (COUNT(CITY)-COUNT(DISTINCT(CITY))) FROM STATION;
+
+    {A hypothetical case where we are subtracting the number of distinct cities from total number of cities}
+
+    
+
+
 
 * AVG()
 
@@ -670,6 +679,9 @@ TYPES:
 
 
     Option to specify whether you want rows deleted in a child table when corresponding rows are deleted in the parent table.
+
+
+    
 
 
 
