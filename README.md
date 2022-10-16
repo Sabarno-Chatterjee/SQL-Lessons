@@ -666,6 +666,12 @@ TYPES:
     ORDER BY amount DESC;
 
 
+# ON DELETE CASCADE
+
+
+    Option to specify whether you want rows deleted in a child table when corresponding rows are deleted in the parent table.
+
+
 
 
 
