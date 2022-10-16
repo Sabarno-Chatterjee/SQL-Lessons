@@ -635,12 +635,44 @@ TYPES:
 
 
 
+3. RIGHT JOIN
+
+
+    RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
 
 
 
 
-        
 
+
+
+
+# ISNULL
+
+
+    SELECT 
+    f_name, 
+    l_name,
+    IFNULL(SUM(amount),0) AS 'Total_purchase'
+
+    FROM customers
+    LEFT JOIN orders
+    ON customers.id = orders.customer_id
+    GROUP BY 2, 1
+    ORDER BY amount DESC;
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
