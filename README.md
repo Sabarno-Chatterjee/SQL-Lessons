@@ -640,6 +640,10 @@ TYPES:
 
     RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
 
+    SELECT * FROM customers
+    RIGHT JOIN orders
+    ON customers.id = orders.customer_id;
+
 
 
 
