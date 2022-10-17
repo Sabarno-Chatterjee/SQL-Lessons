@@ -683,7 +683,12 @@ TYPES:
 
     
 
+# ROUND
 
+
+    SELECT ROUND(235.415, 2) AS RoundValue;
+
+    The ROUND() function rounds a number to a specified number of decimal places.
 
 
 
