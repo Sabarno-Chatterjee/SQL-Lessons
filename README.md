@@ -197,7 +197,7 @@ This file consists of all the notes from SQL classes.
 
     Output: Hell
 
-    Eg of usig substring along with other string functions like 'Concat';
+    Eg of using substring along with other string functions like 'Concat';
 
     SELECT CONCAT(SUBSTRING(title,1,10),'...') AS 'Short title' FROM books;
 
@@ -705,8 +705,9 @@ TYPES:
 
     The FLOOR() function returns the largest integer value that is smaller than or equal to a number.
 
-    
 
+
+SELECT DISTINCT CITY FROM STATION WHERE (SUBSTRING(CITY,-1) IN ('a','e','i','o','u'));
 
 
 
