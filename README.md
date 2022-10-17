@@ -699,6 +699,15 @@ TYPES:
     The ABS() function returns the absolute value of a number.
 
 
+# FLOOR
+
+    SELECT FLOOR(25.75) AS FloorValue;
+
+    The FLOOR() function returns the largest integer value that is smaller than or equal to a number.
+
+    
+
+
 
 
 
