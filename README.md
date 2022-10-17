@@ -691,6 +691,14 @@ TYPES:
     The ROUND() function rounds a number to a specified number of decimal places.
 
 
+# ABS VALUE
+
+
+    SELECT Abs(-243.5) AS AbsNum;
+
+    The ABS() function returns the absolute value of a number.
+
+
 
 
 
