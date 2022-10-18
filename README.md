@@ -696,7 +696,7 @@ TYPES:
 
     SELECT Abs(-243.5) AS AbsNum;
 
-    The ABS() function returns the absolute value of a number.
+    The ABS() function returns the absolute value of a number. |-1| = 1.
 
 
 # FLOOR
