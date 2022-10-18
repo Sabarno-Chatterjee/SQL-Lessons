@@ -705,6 +705,18 @@ TYPES:
 
     The FLOOR() function returns the largest integer value that is smaller than or equal to a number.
 
+    
+# CEILING()
+
+    Rounds off to the nearest higher integer.
+    
+    SELECT CEILING(AVG(Salary)) 
+
+
+# LOWER()
+
+
+    SELECT LOWER("SQL Tutorial is FUN!");
 
 
 
