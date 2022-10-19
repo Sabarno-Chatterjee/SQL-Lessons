@@ -719,6 +719,14 @@ TYPES:
     SELECT LOWER("SQL Tutorial is FUN!");
 
 
+# UNION
+
+    SELECT column_name(s) FROM table1
+    UNION
+    SELECT column_name(s) FROM table2;
+
+    {Can be used for same table as well}
+
 
 
 
