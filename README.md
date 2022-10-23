@@ -739,7 +739,21 @@ TYPES:
     END;
 
 
-    
+
+
+# MySQL IFNULL() Function
+
+
+    IFNULL(expression, alt_value)
+
+    e.g:
+
+    SELECT students.first_name, papers.title, IFNULL(AVG(papers.grade),0) AS average
+    FROM students
+    LEFT JOIN papers ON 
+    students.id = papers.student_id
+    GROUP BY first_name
+    ORDER BY AVG(papers.grade) DESC;
 
 
 
