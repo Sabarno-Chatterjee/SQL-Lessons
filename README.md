@@ -755,7 +755,16 @@ TYPES:
     GROUP BY first_name
     ORDER BY AVG(papers.grade) DESC;
 
+    
 
+# JOINING THREE TABLES:
+
+
+    SELECT * FROM reviewers
+    INNER JOIN reviews ON 
+    reviewers.id = reviews.reviewer_id
+    INNER JOIN series ON
+    reviews.series_id = series.id;
 
 
 
